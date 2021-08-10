@@ -9,10 +9,10 @@ For å printe alle elementene i listen på en enklere måte, kan man bruke noe s
 
 Eksempel:
 
-liste = [1,2,3,4,5]
+tall_liste = [1,2,3,4,5]
 
-for element in liste:
-  print(element)
+for tall in tall_liste:
+  print(tall)
 
 Denne koden vil gi dette resultatet:
 
@@ -26,15 +26,13 @@ Denne koden vil gi dette resultatet:
 
 partall = [2,4,6,8,10]
 
-# A: Print alle tallene i listen "partall"
+# A: Bruk en for-løkke til å printe alle tallene i listen "partall"
 
-# B: Print hvert element i listen hvor det er lagt til 1 på tallet. Altså print element+1 for hvert element i listen.
+# B: Bruk en for-løkke til å printe hvert element i listen "partall" hvor det er lagt til 1 på tallet. Altså print tall+1 for hvert tall i listen.
 
-# C: Lag en liste med fem grønnsaker og print alle
+# C: Lag en liste med fem grønnsaker og print alle ved hjelp av en for-løkke.
 
 priser = [10,20,12,32,44]
 nye_priser = []
 
-# D: Vi skal øke alle prisene i butikken med 10kr. Gå gjennom listen med priser, legg til 10 på verdien, og legg til den oppdaterte verdien til den nye listen "nye_priser". Print til slutt alle verdiene i "nye_priser". Tips: ta en titt på oppgave 3.
-
-
+# D: Vi skal øke alle prisene i butikken med 10kr. Bruk en for-løkke til å gå gjennom listen med priser, legg til 10 på verdien, og legg til den oppdaterte verdien i listen "nye_priser". Print til slutt alle verdiene i "nye_priser". Tips: Ta en titt på oppgave 3 for å huske hvordan man legger til verdier i en liste.

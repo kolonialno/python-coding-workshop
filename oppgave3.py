@@ -5,24 +5,24 @@ I denne oppgaven skal du lære om lister. Du skal lære å printe et bestemt ele
 
 Litt om lister i Python:
 
-Isteden for å gi en variabel en verdi, kan vi sette den til en liste av vaiabler. Her lager vi en liste som vi kaller "minListe":
+Istedenfor å gi en variabel en verdi, kan vi sette den til en liste av vaiabler. Her lager vi en liste som vi kaller "min_liste":
 
-minListe = ["element0", "element1", "element2"]
+min_liste = ["element0", "element1", "element2"]
 
 Alt som står innenfor klammeparantesene([]) er med i listen, og elementene i listen separeres med komma.
 
 For å hente ut et bestemt element fra listen må man si hvilken plass i listen verdien vi skal hente ut har.
 Lister i Python er starter på null, som vil si at det første elementet i listen står på plass 0, det andre på plass 1 osv. Man printer det første elementet i listen på denne måten:
 
-print(minListe[0])
+print(min_liste[0])
 
 Man kan legge til nye elementer i en liste. Det gjøres på denne måten:
 
-minListe.append("nytt element")
+min_liste.append("nytt element")
 
 Etter dette er gjort vil listen se slik ut:
 
-minListe = ["element0", "element1", "element2", "nytt element"]
+min_liste = ["element0", "element1", "element2", "nytt element"]
 
 """
 

@@ -24,11 +24,11 @@ priser = [20,31,50,17,37]
 
 # A: Print alle prisene som er lavere enn 35kr.
 
-# B: Gå gjennom listen med priser. Hvis prisen er lavere enn 35kr, print "Billig", hvis ikke print "Dyr"
+# B: Gå gjennom listen med priser. Hvis prisen er lavere enn 35kr, print "Billig", for alle andre tilfeller print "Dyr". Tips: Se på oppgave 1. 
 
 navn = ["Mari", "Espen", "Sandra", "Oda", "Per"]
 
-# C: Gå gjennom listen med navn. Print alle navnene bortsett fra Oda.
+# C: Gå gjennom listen med navn. Print alle navnene bortsett fra Oda. Tips: For å sjekke om noe ikke er lik noe annet kan man bruke !=
 
 
 # ------------------ Frivillige oppgaver --------------------------

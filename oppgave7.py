@@ -32,14 +32,14 @@ Man kan også bruke .keys() og .values() direkte i for-løkken om man er komfort
   for nøkkel in antall.keys():
     print(nøkkel)
 
-  for verdi in antall.values()
+  for verdi in antall.values():
     print(verdi)
 
 Dette vil gi samme resultat som å gjøre det over, men da slipper man mellomsteget med å lagre i en variabel først.
 """
 antall = {"Gulost": 17, "Sjokolade": 25, "Bananer": 10}
 
-# A: Print alle nøkklene i antall-dictionaryen
+# A: Print alle nøklene i antall-dictionaryen
 
 # B: Print alle verdiene i antall-dictionaryen
 
@@ -66,14 +66,14 @@ for nøkkel in antall.keys():
 # -------------------------- Frivillig -----------------------------------
 
 """
-Det er mulig å gå gjennm måte nøkler og verdier i en dictionary i samme for-løkke. Det gjør man på denne måten:
+Det er mulig å gå gjennom både nøkler og verdier i en dictionary i samme for-løkke. Det gjør man på denne måten:
 
   for nøkkel, verdi in antall.items():
     print("Nøkkel:", nøkkel)
     print("Verdi:", verdi)
 """
 
-# F Print nøkler og verdier i antall-dictionaryen under ved å bruke .items() slik som i eksempelet ovenfor.
+# F: Print nøkler og verdier i antall-dictionaryen under ved å bruke .items() slik som i eksempelet ovenfor.
 
 # G: Gå gjennom nøkler og verdier i dictionaryen ved hjelp av .items(). Print nøkkelen hvis verdien er høyere enn 30.
 

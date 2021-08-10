@@ -1,13 +1,13 @@
 """
 OPPGAVE 6: DICTIONARIES
 
-I denne oppgaven skal du bli bedre kjent med en datatype som kaller dictionaries.
+I denne oppgaven skal du bli bedre kjent med en datatype som kalles dictionaries.
 
 Eksempel på en dictionary:
 
   kunde = {"navn": "Oda", "bosted": "Oslo"}
 
-Alt mellom klammeparantesene {} er en dictionary. I eksempelet over er "navn" og "bosted" det vi kaller nøkler, og "Oda" og "Oslo" er verdier. Nøkler kan brukes til å hente ut en verdi, og det gjøres på følgende måte:
+Alt mellom krøllparantesene {} er en dictionary. I eksempelet over er "navn" og "bosted" det vi kaller nøkler, og "Oda" og "Oslo" er verdier. Nøkler kan brukes til å hente ut en verdi, og det gjøres på følgende måte:
 
   kundenavn = kunde["navn"]
 
@@ -25,19 +25,14 @@ Under har vi laget to dictionaries du skal få jobbe med. Den ene inneholder inf
 vare = {"navn": "Gulost", "pris": 50, "kategori": "Pålegg"}
 
 # A: Hent ut navnet til varen
-# navn = ...
-# print("Navnet på varen:", navn)
 
 # B: Hent ut prisen til varen
-# pris = ...
-# print("Prisen på varen:", pris)
 
 # C: Hent kategorien til varen
-# kategori = ...
-# print("Kategorien til varen:", kategori)
+
 
 """
-Nedenfor ser du at annet eksempel på en dictionary. Her representeres flere varer i samme dictionary, og man kan hente ut antall av hver vare. Nøkkelen i denne dictionaryen er navnet på varen, og verien er antall.  
+Nedenfor ser du et annet eksempel på en dictionary. Her representeres flere varer i samme dictionary, og man kan hente ut antall av hver vare. Nøkkelen i denne dictionaryen er navnet på varen, og verdien er antall.  
 """
 
 
@@ -69,6 +64,6 @@ antall["eple"] = 10
 
 # I Du jobber på lageret og får en leveranse med 42 kartonger med melk. Din oppgave er å oppdatere antall-dictionaryen slik at vi har full oversikt over varebeholdningen.
 
-# J: Vi får inn 20 brokkoli på lager. Legg det til i antall dictionaryen, og print hele dictionaryen.
+# J: Vi får inn 20 brokkoli på lageret. Legg det til i antall dictionaryen, og print hele dictionaryen.
 
 
