@@ -26,9 +26,9 @@ priser = [20,31,50,17,37]
 
 # B: Gå gjennom listen med priser. Hvis prisen er lavere enn 35kr, print "Billig", for alle andre tilfeller print "Dyr". Tips: Se på oppgave 1. 
 
-navn = ["Mari", "Espen", "Sandra", "Oda", "Per"]
+navn_liste = ["Mari", "Espen", "Sandra", "Oda", "Per"]
 
-# C: Gå gjennom listen med navn. Print alle navnene bortsett fra Oda. Tips: For å sjekke om noe ikke er lik noe annet kan man bruke !=
+# C: Gå gjennom listen navn_liste. Print alle navnene bortsett fra Oda. Tips: For å sjekke om noe ikke er lik noe annet kan man bruke !=
 
 
 # ------------------ Frivillige oppgaver --------------------------
