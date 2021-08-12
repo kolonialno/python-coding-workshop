@@ -34,10 +34,10 @@ navn = ["Mari", "Espen", "Sandra", "Oda", "Per"]
 # ------------------ Frivillige oppgaver --------------------------
 
 
-tall = [1,2,3,4,5,6,7,8,9,10]
+tall_liste = [1,2,3,4,5,6,7,8,9,10]
 
-# D: Gå gjennom listen med tall. Print alle tallene som er delelig på 2. (Hint: Man kan sjekke om noe er delelig på 2 på denne måten: tall%2==0)
+# D: Gå gjennom listen tall_liste. Print alle tallene som er delelig på 2. (Hint: Man kan sjekke om noe er delelig på 2 på denne måten: tall%2==0)
 
-tall2 = []
+tall_liste2 = []
 
-# E: Gå gjennom listen med tall. Legg til tallet i listen tall2 hvis tallet er delelig på 3. Print tall2 etterpå.
+# E: Gå gjennom listen tall_liste. Legg til tallet i tall_liste2 hvis tallet er delelig på 3. Print tall_liste2 etterpå.
