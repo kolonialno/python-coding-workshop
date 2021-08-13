@@ -38,13 +38,13 @@ middager = ["pizza", "pasta", "fiskegrateng", "wok", "taco"]
 # C: Print middagen du liker best i listen
 
 
-# D: Legg til en ny middag i listen
+# D: Bruk funksjonen .append() til å legge til en ny middag i listen
 
 
 # E: Lag en liste med forskjellige dyr, og print listen
 
 
-# F: Legg til "krokodille" i listen, og print listen igjen
+# F: Legg til "krokodille" i listen ved hjelp av .append(), og print listen igjen
 
 
 # G: Print favorittdyret ditt fra listen
