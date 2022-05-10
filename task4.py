@@ -1,38 +1,71 @@
 """
-OPPGAVE 4: FOR-LØKKE MED EN LISTE-VARIABEL
+TASK 4: FOR LOOPS
 
-I denne oppaven skal du lære å gå gjennom lister ved hjelp av for-løkker.
+In this task you'll learn about for loops and how they can be used to iterate
+through all items in a list.
 
-Hvis man skal printe alle elementene i en liste, kan man gjøre det på samme måte som vi gjorde i oppgave 4 for alle elementene. Dette kan ta litt tid og kreve at man skriver mye kode, spesielt hvis listen er lang.
+If you want to print all the items in a list, you can do it the same way we
+did in task 3 for all items. However, this can be quite time-consuming and end
+up with a lot of code if there are many items in the list.
 
-For å printe alle elementene i listen på en enklere måte, kan man bruke noe som heter en for-løkke. Da får man Python til å gå gjennom listen, og gjøre noe med hver verdi i listen, for eksempel printe verdien.
+To print all the items in the list in an easier way, we can use for loops. When
+using for loops, it goes through each item in a list one by one and does
+whatever you want with the values (for example printing them). Here's an example:
 
-Eksempel:
+    numbers = [1, 2, 3, 4, 5]
+    
+    for number in numbers:
+        print(number)
 
-tall_liste = [1,2,3,4,5]
+The code above will print the following result:
 
-for tall in tall_liste:
-  print(tall)
-
-Denne koden vil gi dette resultatet:
-
-1
-2
-3
-4
-5
+    1
+    2
+    3
+    4
+    5
 
 """
 
-partall = [2,4,6,8,10]
+even_numbers = [2, 4, 6, 8, 10]
 
-# A: Bruk en for-løkke til å printe alle tallene i listen "partall"
+"""
+--- TASK 4A ---
 
-# B: Bruk en for-løkke til å printe hvert element i listen "partall" hvor det er lagt til 1 på tallet. Altså print tall+1 for hvert tall i listen.
+Use a for loop to print all the items in the list "even_numbers".
+"""
 
-# C: Lag en liste med fem grønnsaker og print alle ved hjelp av en for-løkke.
+# Write your code here
 
-priser = [10,20,12,32,44]
-nye_priser = []
+"""
+--- TASK 4B ---
 
-# D: Vi skal øke alle prisene i butikken med 10kr. Bruk en for-løkke til å gå gjennom listen med priser, legg til 10 på verdien, og legg til den oppdaterte verdien i listen "nye_priser". Print til slutt alle verdiene i "nye_priser". Tips: Ta en titt på oppgave 3 for å huske hvordan man legger til verdier i en liste.
+Use a for loop to print all items in the list "even_numbers", but this time you
+should add 1 to each value. In other words, print the value + 1 for each item in
+the list.
+"""
+
+# Write your code here
+
+"""
+--- TASK 4C ---
+
+Create a new list with five vegetables and print all the items using a for loop.
+"""
+
+# Write your code here
+
+prices = [10, 20, 12, 32, 44]
+new_prices = []
+
+"""
+--- TASK 4D ---
+
+We want to increase all prices in our webshop with 10 NOK. Use a for loop to go
+through the list of prices. For each item in the list, add the value + 10 to the 
+list "new_prices". Finally, print the "new_prices" list to see the result.
+
+(Hint: take a look at task 3 if you can't remember how to add items to a list.)
+"""
+
+# Write your code here
