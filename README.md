@@ -1,1 +1,1 @@
-# Welcome to Oda's coding workshop. 
+# Welcome to the Python coding workshop :woman_technologist: :rocket:
