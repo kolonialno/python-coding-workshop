@@ -1,3 +1,3 @@
-navn = input("Hva heter du? ")
+name = input("What's your name? ")
 
-print("Velkommen til workshop med Oda,", navn, ":)")
+print("Welcome to the coding workshop,", name, ":)")
