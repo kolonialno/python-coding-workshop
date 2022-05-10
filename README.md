@@ -1,1 +1,1 @@
-# Velkommen til Odas workshop!
+# Welcome to Oda's coding workshop. 
