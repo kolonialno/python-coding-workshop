@@ -1,24 +1,55 @@
 """
-OPPGAVE 2: INPUT FRA BRUKER
+TASK 2: INPUT FROM A USER
 
-I denne oppgaven skal du lære å bruke input fra bruker
+In this task you will learn how to use input from a user. Run the code below
+and see what happens.
 """
-# A: Kjør koden under og se hva som skjer
 
-x = input("Skriv inn din input:")
+x = input("Write your input here: ")
 print(x)
 
-# B: Lag en ny variabel som du kaller "navn". (Hint: I forrige oppgave kalte vi variabelen "x".) Variabelen skal få input fra bruker, som over, bare at du spør hva brukeren heter. Print verdien for å kontrollere at du får resultatet du forventer.
+"""
+--- TASK 2A ---
 
+Create a new variable called "name". (Hint: in the code snippet above we 
+named the variable "x").
 
+The variable should be assigned a value based on input from a user. Ask the 
+user for it's name, and assign the value to the "name" variable.
 
-# C: Vi vil nå lage en if-setning som sjekker om navnet til brukeren er "Oda". Dersom det stemmer, skal terminalen skrive "Så fint navn!". For å sammenligne om verdien til to variabler er den samme, bruker vi to likhetstegn ("==").
+Finally, print the name to check that the name has the value you expect.
+"""
+
+# Write your code here
+
+"""
+--- TASK 2B ---
+
+We now want to make an if statement to check whether the name of the user
+is "Oda". If that's the case, we want the terminal to print "That's a cool
+name!". To compare values, we use two equals, for example x == 10.
+
+Remove the three " above and below the code snippet below and add the
+variable and value needed.
+"""
 
 """"
 if .. == ..:
-  print("Så fint navn!")
+  print("That's a cool name!")
 """
 
-# D: Legg til en "elif"-bolk som printer "Visste du at den første programmereren var Ada Lovelace?" dersom navnet er "Ada". Hint: gå tilbake til oppgave 1 for å sjekke hvordan du kan skrive koden.
+"""
+--- TASK 2C ---
 
-# E: Legg til en "else"-bolk som printer noe du selv velger dersom ingen av de andre sjekkene slår ut.
+Add an elif statement to the code snippet above that prints "Did you know
+that Ada Lovelace was the first programmer the world?" if the name is "Ada".
+
+(Hint: take a look at task 1 to see how an elif statement can be written.)
+"""
+
+"""
+--- TASK 2D ---
+
+Add an else statement to the code snippet above that prints a text of your
+choosing if neither the if or elif checks kick in.
+"""
