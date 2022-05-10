@@ -1,52 +1,93 @@
 """
-OPPGAVE 3: LISTE SOM VARIABEL
+TASK 3: LISTS
 
-I denne oppgaven skal du lære om lister. Du skal lære å printe et bestemt element i en liste, og legge til et nytt element i listen.
+In this task you'll learn about lists. You'll learn how to print a specific
+item in a list and how to add an item to a list.
 
-Litt om lister i Python:
+First, some background information about lists: instead of assigning one
+value to a variable, we can assign a list of values. Here's an example
+where we have a list called "my_list":
 
-Istedenfor å gi en variabel en verdi, kan vi sette den til en liste av vaiabler. Her lager vi en liste som vi kaller "min_liste":
+my_list = ["item0", "item1", item2"]
 
-min_liste = ["element0", "element1", "element2"]
+Everything between the square brackets ([]) is part of the list, and the items
+in the list are separated with commas.
 
-Alt som står innenfor klammeparantesene([]) er med i listen, og elementene i listen separeres med komma.
+To retrieve one specific item in a list you have to specify which position the
+item has in the list. The positional value starts with zero in Python, which
+means that the first item is in position 0, the second item is in position 1
+etc. You can print the first item in a list like this:
 
-For å hente ut et bestemt element fra listen må man si hvilken plass i listen verdien vi skal hente ut har.
-Lister i Python er starter på null, som vil si at det første elementet i listen står på plass 0, det andre på plass 1 osv. Man printer det første elementet i listen på denne måten:
+print(my_list[0])
 
-print(min_liste[0])
+To add a new item to a list, you can use a method called append:
 
-Man kan legge til nye elementer i en liste. Det gjøres på denne måten:
+my_list.append("My new item")
 
-min_liste.append("nytt element")
+After this method is called, the list will look like this:
 
-Etter dette er gjort vil listen se slik ut:
-
-min_liste = ["element0", "element1", "element2", "nytt element"]
-
+my_list = ["item0", "item1", item2", "My new item"]
 """
 
-# Her har vi laget en liste som vi har kalt "middager":
-middager = ["pizza", "pasta", "fiskegrateng", "wok", "taco"]
+dinners = ["pizza", "pasta", "soup", "fish and chips", "tacos"]
 
-# A: Print det tredje elementet i listen som vi har kalt "middager"
+"""
+--- TASK 3A ---
+
+Print the third item in the list above called "dinners".
+"""
+
+# Write your code here
+
+"""
+--- TASK 3B ---
+
+Print the item with the value "pizza" from the dinner list.
+"""
+
+# Write your code here
+
+"""
+--- TASK 3C ---
+
+Print your favorite dinner from the dinner list.
+"""
+
+# Write your code here
+
+"""
+--- TASK 3D ---
+
+Use the .append() method to add a new dinner to the list. Print the list to
+see that the new dinner was added successfully.
+"""
+
+# Write your code here
+
+"""
+--- TASK 3E ---
+
+Create a new list with various animals and print the list.
+"""
+
+# Write your code here
 
 
-# B: Print elementet med verdien "pizza" fra listen
+"""
+--- TASK 3F ---
+
+Use the .append() method to add "Crocodile" to the list. Print the list to
+see that the new dinner was added successfully.
+"""
+
+# Write your code here
 
 
-# C: Print middagen du liker best i listen
+"""
+--- TASK 3G ---
 
+Print your favorite animal from the animal list.
+"""
 
-# D: Bruk funksjonen .append() til å legge til en ny middag i listen
-
-
-# E: Lag en liste med forskjellige dyr, og print listen
-
-
-# F: Legg til "krokodille" i listen ved hjelp av .append(), og print listen igjen
-
-
-# G: Print favorittdyret ditt fra listen
-
+# Write your code here
 
