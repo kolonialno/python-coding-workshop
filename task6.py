@@ -7,7 +7,7 @@ Example of a dictionary:
 
   customer = {"name": "Oda", "city": "Oslo"}
   
-Everything between the curly bracets is a dictionary. In the example above, "name" and "city" is what we call keys, and "Oda" and "Oslo" is values.
+Everything between the curly brackets is a dictionary. In the example above, "name" and "city" is what we call keys, and "Oda" and "Oslo" is values.
 Keys can be used to access a value, and it can be done like this:
 
   customer_name = customer["name"]
@@ -20,7 +20,7 @@ You can do the same for city:
 
 Here customer["city"] will return the value that belongs to "city", and the value in this case is "Oslo".
 
-We have made two dictionaries that you will work on in this task. One contains information about a spesific product, and the other gives and overview of the amount we have of different products. 
+We have made two dictionaries that you will work on in this task. One contains information about a specific product, and the other gives and overview of the amount we have of different products. 
 
 """
 
@@ -33,7 +33,7 @@ product = {"name": "Cheese", "price": 50, "category": "Dairy"}
 # C: Get the category of the product.
 
 """
-below you see an example of another dictionary. This dictionary contains many products and you can get the amount we have in the fulfillment center of each product. The key in this dictionary is the name of the product, and the amout is the value. 
+Below you see an example of another dictionary. This dictionary contains many products and you can get the amount we have in the fulfillment center of each product. The key in this dictionary is the name of the product, and the amount is the value. 
 """
 
 
@@ -46,7 +46,7 @@ amounts = {"Cheese": 17, "Chocolate": 25, "Banana": 10}
 # F: Get the amount of bananas we have in the fulfillment center.
 
 """
-You can change spesific values in a dictionary. It is done like this:
+You can change specific values in a dictionary. It is done like this:
 amounts["Cheese"] = 16
 
 The the amount of cheese if changed from 17 to 16.
