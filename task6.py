@@ -1,69 +1,69 @@
 """
-OPPGAVE 6: DICTIONARIES
+TASK 6: DICTIONARIES
 
-I denne oppgaven skal du bli bedre kjent med en datatype som kalles dictionaries.
+In this task you will learn about a datatype called dictionary.
 
-Eksempel på en dictionary:
+Example of a dictionary:
 
-  kunde = {"navn": "Oda", "bosted": "Oslo"}
+  customer = {"name": "Oda", "city": "Oslo"}
+  
+Everything between the curly bracets is a dictionary. In the example above, "name" and "city" is what we call keys, and "Oda" and "Oslo" is values.
+Keys can be used to access a value, and it can be done like this:
 
-Alt mellom krøllparantesene {} er en dictionary. I eksempelet over er "navn" og "bosted" det vi kaller nøkler, og "Oda" og "Oslo" er verdier. Nøkler kan brukes til å hente ut en verdi, og det gjøres på følgende måte:
+  customer_name = customer["name"]
 
-  kundenavn = kunde["navn"]
+In this example customer["name"] will give the value that belongs to "name", and that value is "Oda" in this case. 
 
-Her vil kunde["navn"] hente ut verdien som tilhører "navn", altså "Oda".
+You can do the same for city:
 
-Man kan gjøre det samme for bosted:
+  customer_city = customer["city"]
 
-  kundebosted = kunde["bosted"]
+Here customer["city"] will return the value that belongs to "city", and the value in this case is "Oslo".
 
-Her vil kunde["bosted"] hente ut verdien som tilhører "bosted", altså "Oslo".
-
-Under har vi laget to dictionaries du skal få jobbe med. Den ene inneholder informasjon om en spesifikk vare, og den andre gir en oversikt over varebeholdningen for ulike produkter. Følg oppgavene under og bli litt kjent med hvordan man kan hente ut verdier fra en dictionary.
-"""
-
-vare = {"navn": "Gulost", "pris": 50, "kategori": "Pålegg"}
-
-# A: Hent ut navnet til varen
-
-# B: Hent ut prisen til varen
-
-# C: Hent kategorien til varen
-
+We have made two dictionaries that you will work on in this task. One contains information about a spesific product, and the other gives and overview of the amount we have of different products. 
 
 """
-Nedenfor ser du et annet eksempel på en dictionary. Her representeres flere varer i samme dictionary, og man kan hente ut antall av hver vare. Nøkkelen i denne dictionaryen er navnet på varen, og verdien er antall.  
+
+product = {"name": "Cheese", "price": 50, "category": "Dairy"}
+
+# A: Get the name of the product.
+
+# B: Get the price of the product.
+
+# C: Get the category of the product.
+
+"""
+below you see an example of another dictionary. This dictionary contains many products and you can get the amount we have in the fulfillment center of each product. The key in this dictionary is the name of the product, and the amout is the value. 
 """
 
 
-antall = {"Gulost": 17, "Sjokolade": 25, "Bananer": 10}
+amounts = {"Cheese": 17, "Chocolate": 25, "Banana": 10}
 
-# D: Hent ut antall på lager av gulost
+# D: Get the amount of cheese we have in the fulfillment center.
 
-# E: Hent ut antall på lager av sjokolade
+# E: Get the amount of chocolate we have in the fulfillment center.
 
-# F: Hent ut antall på lager av bananer
-
-"""
-Man kan endre på spesifikke verdier i en dictionary. Det gjøres på denne måten:
-
-antall["Gulost"] = 16
-
-Her settes antallet av gulost ned fra 17 til 16.
-"""
-
-# G: Vi selger tre sjokolader. Endre antall sjokolader tilsvarende.
-
-# H: Det er utsolgt for bananer. Sett antall bananer til 0.
+# F: Get the amount of bananas we have in the fulfillment center.
 
 """
-Man kan legge til nye nøkler og verdier i en dictionary på samme måte som man endrer verdier, bortsett fra at nøkkelen ikke finnes i dictionaryen fra før av. Hvis vi for eksempel skal legge til antall epler i antall-dictionaryen, gjøres det på denne måten:
+You can change spesific values in a dictionary. It is done like this:
+amounts["Cheese"] = 16
 
-antall["eple"] = 10
+The the amount of cheese if changed from 17 to 16.
 """
 
-# I Du jobber på lageret og får en leveranse med 42 kartonger med melk. Din oppgave er å oppdatere antall-dictionaryen slik at vi har full oversikt over varebeholdningen.
+# G: We sell 3 chocolates. Change the amount of chocolates to match this.
 
-# J: Vi får inn 20 brokkoli på lageret. Legg det til i antall dictionaryen, og print hele dictionaryen.
+# H: We sell out of bananas. Put the amount of bananas to 0.
+
+"""
+You can add new sets of keys and values to a dictionary the same way as you change the value, except that the key dont exists in the dictionary. For example, you can add apples to the dictionary like this:
+
+amounts["Apple"] = 10
+"""
+
+# I: You work in the fulfillment center and get a delivery of 42 bottles of milk. Change the dictionary so that the milk is represented.
+
+# J: We get a delivery of 20 broccoli. Add this to the dictionary and print the dictionary.
 
 
