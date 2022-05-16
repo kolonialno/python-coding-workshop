@@ -1,88 +1,83 @@
 """
-OPPGAVE 7: DICTIONARIES OG FOR-LØKKER
+TASK 7: DICTIONARIES AND FOR-LOOPS
 
-Nå skal vi bygge videre på det du lærte i oppgave 7 og teste ut hvordan man kan skrive for-løkker for dictionaries.
+In this task you will learn to write for-loops for dictionaries.
 
-En for-løkke for en dictionary likner veldig på hvordan man skriver for-løkker for lister, men nå er det to ting man kan lage en for-løkke for: nøkler og verdier.
+A for-loop for a dictionary is very similar to a for-loop for a list. However, when looping through a dictionary there are two things we can loop through: keys and values.
 
-Som eksempel kan vi bruke dictionaryen du jobbet med i oppgave 7:
+We use the dictionary from task 7 as an example:
 
-  antall = {"Gulost": 17, "Sjokolade": 25, "Bananer": 10}
+  amounts = {"Cheese": 17, "Chocolate": 25, "Banana": 10}
 
-Før vi går i gang med for-løkker skal vi først bli kjent med hvordan man kan hente ut alle nøkler og verdier. Her er noen eksempler:
+Before we start using for-loops, we will learn to list all values or keys from a dictionary. Here are some examples:
 
-  nøkler = antall.keys()
-  verdier = antall.values()
+  keys = amounts.keys()
+  values = amounts.values()
 
-.keys() vil altså hente ut alle nøklene til dictionaryen, og .values() vil hente ut alle verdiene til dictionaryen. Om du printer disse variablene vil de se slik ut:
+.keys() will list all keys in the dictionary and .values() will list all values. If you print the variables above it will look like this:
 
-  ["Gulost", "Sjokolade", "Bananer"]
+  ["Cheese", "Chocolate", "Banana"]
   ["17, 25, 10"]
 
-Man får altså tilbake en liste, og det har vi jo lært hvordan man kan skrive for-løkker for! Her er et lite tilbakeblikk:
+You will end up with a list of items, and we have already learned how to loop though these!
 
-  for nøkkel in nøkler:
-    print(nøkkel)
+  for key in keys:
+    print(key)
 
-  for verdi in verdier:
-    print(verdi)
+  for value in values:
+    print(value)
 
-Man kan også bruke .keys() og .values() direkte i for-løkken om man er komfortabel med det:
+You can also use .keys() and .values() directly in the for-loop:
 
-  for nøkkel in antall.keys():
-    print(nøkkel)
+  for key in amounts.keys():
+    print(key)
 
-  for verdi in antall.values():
-    print(verdi)
+  for value in amounts.values():
+    print(value)
 
-Dette vil gi samme resultat som å gjøre det over, men da slipper man mellomsteget med å lagre i en variabel først.
-"""
-antall = {"Gulost": 17, "Sjokolade": 25, "Bananer": 10}
-
-# A: Print alle nøklene i antall-dictionaryen
-
-# B: Print alle verdiene i antall-dictionaryen
-
-# C: Lag en for-løkke som går gjennom alle nøklene i dictionaryen over, og print verdien som tilhører de ulike nøklene. Husk at du kan bruke antall[nøkkel] for å hente ut verdien din.
+This will give the same result as above without needing to write it to a variable. 
 
 """
-Vi skal nå gjøre en operasjon på hele dictionaryen. I dette eksempelet har vi fått inn 10 ekstra av hver vare, og vil altså legge til 10 i hver verdi i dictionaryen.
+amounts = {"Cheese": 17, "Chocolate": 25, "Banana": 10}
 
-Ved å bruke en for-løkke kan vi gå gjennom alle nøklene og oppdatere hver verdi:
-for nøkkel in antall.keys():
-  antall[nøkkel] = antall[nøkkel] + 10
+# A: Print all keys in the amounts dictionary.
+# B: Print all values in the amounts dictionary.
+# C: Make a for-loop that loops through all keys in the dictionary, and prints the corresponding values. Hint: Remember that you can use amounts[key] to get the corresponding value.
 
-For å komprimere koden kan vi gjøre et triks som produserer samme resultat:
-for nøkkel in antall.keys():
-  antall[nøkkel] += 10
+"""
+You are now going to do an operation on the entire dictionary. In this example we have received 10 items extra of each product, and will update the dictionary by adding 10 to all amounts.  
+
+We use a for loop to loop though all the keys and update all values.
+
+for key in amounts.keys():
+  amounts[key] = amounts[key] + 10
+
+This is a shorter way to get the same result:
+for key in amounts.keys():
+  amounts[key] += 10
 
 """
 
-# D: Det er kommet inn en bestilling av en av hver vare. Gå gjennom antall-dictionaryen og trekk fra 1 på hver vare.
+# D: Someone orders 1 of each product in amounts. Subtract 1 on all the values in the dictionary.
 
-# E: Det kommer påfyll til lageret. Gå gjennom antall og legg til 20 på hver vare.
+# E: There is a restock at the fulfillment center. Add 20 to each product in the dictionary.
 
-
-# -------------------------- Frivillig -----------------------------------
-
-"""
-Det er mulig å gå gjennom både nøkler og verdier i en dictionary i samme for-løkke. Det gjør man på denne måten:
-
-  for nøkkel, verdi in antall.items():
-    print("Nøkkel:", nøkkel)
-    print("Verdi:", verdi)
-"""
-
-# F: Print nøkler og verdier i antall-dictionaryen under ved å bruke .items() slik som i eksempelet ovenfor.
-
-# G: Gå gjennom nøkler og verdier i dictionaryen ved hjelp av .items(). Print nøkkelen hvis verdien er høyere enn 30.
-
-# H: Dersom du har kommet så langt, råbra jobba! Prøv å finne ut hvordan du kan doble antall varer hvor lengden er 9 bokstaver.
+# -------------------------- Optional tasks -----------------------------------
 
 """
-Tips: Som programmerer blir du fort vant til å bruke Google når du lurer på hvordan du skal løse problemer. For å enklest finne en løsning er det lurt å søke på engelsk. 
+It is possible to loop through both keys and values in the same for-loop. You do it like this:
 
-For eksempel, for å finne ut hvordan du kan finne lengden til en verdi, kan du prøve å søke på "python length of variable".
+  for key, value in amounts.items():
+    print("Key:", key)
+    print("Value:", value)
+"""
 
-Ikke nøl med å spørre oss om du vil ha flere tips!
+# F: Print keys and values in the amount dictionary like in the example above.
+
+# G: Loop though keys and values in amounts. Print the key if the amount is bigger than 30.
+
+# H: If you have made it to this task, nice work! Try to find out how to double the amount of all products where the length of the product name is bigger than 9 letters. 
+
+"""
+Hint: As a software developer you will quickly get used to using google while programming. To find out how to find the length of a word, you can for example try to google "python length of variable".
 """
