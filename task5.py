@@ -1,43 +1,43 @@
 """
-OPPGAVE 5: FOR-LØKKE OG IF-SETNING
+TASK 5: FOR-LOOPS AND IF-SENTENCES
 
-I denne oppgaven skal du kombinere det du har lært om if-setninger og om for-løkker.
+In this task you will learn to combine what you have learned about if-sentences and for-loops. 
 
-Man kan gå gjennom alle elementene i en liste og gjøre noe hvis et av elementene tilfredsstiller "kravet" i if-setningen.
+You can loop through all elements in a list and do something if a element satisfy the if-sentence. 
 
-For eksempel, hvis man har en liste med tall kan vi gå gjennom den og printe tallet hvis det er større enn 10:
+For example, you can loop through a list of numbers and print the number if it is bigger than 10:
 
-tall_liste = [12,1,3,15,20,4]
+numbers = [12,1,3,15,20,4]
 
-for tall in tall_liste:
-  if tall > 10:
-    print(tall)
+for number in numbers:
+  if number > 10:
+    print(number)
 
-Denne koden vil gi dette resultatet:
+This code would give the result below:
 12
 15
 20
 
 """
 
-priser = [20,31,50,17,37]
+prices = [20,31,50,17,37]
 
-# A: Print alle prisene som er lavere enn 35kr.
+# A: Print all prices that are lower than 35kr.
 
-# B: Gå gjennom listen med priser. Hvis prisen er lavere enn 35kr, print "Billig", for alle andre tilfeller print "Dyr". Tips: Se på oppgave 1. 
+# B: Loop though the list of prices. If the price is lower than 35kr, print "Cheap", if not print "expensive". Hint: Have a look at task 1
 
-navn_liste = ["Mari", "Espen", "Sandra", "Oda", "Per"]
+names = ["Mari", "Espen", "Sandra", "Oda", "Per"]
 
-# C: Gå gjennom listen navn_liste. Print alle navnene bortsett fra Oda. Tips: For å sjekke om noe ikke er lik noe annet kan man bruke !=
-
-
-# ------------------ Frivillige oppgaver --------------------------
+# C: Loop though the list of names. Print all names except "Oda". Hint: To check if something is not equal something else you can use !=
 
 
-tall_liste = [1,2,3,4,5,6,7,8,9,10]
+# ------------------ Optional tasks --------------------------
 
-# D: Gå gjennom listen tall_liste. Print alle tallene som er delelig på 2. (Hint: Man kan sjekke om noe er delelig på 2 på denne måten: tall%2==0)
 
-tall_liste2 = []
+numbers = [1,2,3,4,5,6,7,8,9,10]
 
-# E: Gå gjennom listen tall_liste. Legg til tallet i tall_liste2 hvis tallet er delelig på 3. Print tall_liste2 etterpå.
+# D: Loop though the list of numbers. Print all numbers that can be divided by 2. Hint: You can check if something can be divided by to like this: number%2==0
+
+numbers2 = []
+
+# E: Loop though the list "numbers". Append the number to numbers2 if the number can be divided by 3. Print numbers2 afterwards. 
