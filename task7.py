@@ -76,7 +76,7 @@ It is possible to loop through both keys and values in the same for-loop. You do
 
 # G: Loop though keys and values in amounts. Print the key if the amount is bigger than 30.
 
-# H: If you have made it to this task, nice work! Try to find out how to double the amount of all products where the length of the product name is bigger than 9 letters. 
+# H: If you have made it to this task, nice work! Try to find out how to double the amount of all products where the length of the product name is bigger than 8 letters.
 
 """
 Hint: As a software developer you will quickly get used to using google while programming. To find out how to find the length of a word, you can for example try to google "python length of variable".
