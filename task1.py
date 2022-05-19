@@ -62,9 +62,9 @@ When you're done thinking, remove the three " above and below the code and run i
 """
 
 """
-if my_age > colleage_age:
+if my_age > colleague_age:
   print("You are the eldest!")
-elif colleage_age > my_age:
+elif colleague_age > my_age:
   print("Your colleage is the eldest!")
 else:
   print("You are the same age.")
